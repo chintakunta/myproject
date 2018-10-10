@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests" thread-count='2'>
+  <test name="Test1">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="searchword" value="kalam"/>
+    <classes>
+      <class name="all.Paralleltest"/>
+    </classes>
+  </test> 
+  <test name="Test2">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="searchword" value="appium"/>
+    <classes>
+      <class name="all.Paralleltest"/>
+    </classes>
+  </test> 
+</suite> 

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="searchword" value="kalam"/>
+    <classes>
+      <class name="all.Suitdata">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- all.Suitdata -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" name="Test2(failed)">
+    <parameter name="searchword" value="appium"/>
+    <classes>
+      <class name="all.Suitdata">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- all.Suitdata -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="5" name="Test3(failed)">
+    <parameter name="searchword" value="mother"/>
+    <classes>
+      <class name="all.Suitdata">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- all.Suitdata -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+</suite> <!-- Failed suite [Suite] -->
