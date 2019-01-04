@@ -16,14 +16,14 @@ public class Test9 {
 		dc.setCapability(CapabilityType.BROWSER_NAME,""); 
 		dc.setCapability("deviceName", "ZY2244H2P7");
 		dc.setCapability("platformName", "android");
-		dc.setCapability("platformVersion", "7.0");
+		dc.setCapability("platformVersion", "8.1.0");
 		dc.setCapability("locationservicesEnabled", true);
 		dc.setCapability("locationservicersAuthorizer", true);
 		dc.setCapability("appPackage", "com.android.dialer");
 		dc.setCapability("appActivity", "com.android.dialer.DialtactsActivity");
 		//start appium server
-		Runtime.getRuntime().exec("cmd.exe /c start cmd.exe /k \"appium -a 0.0.0.0 -p 4723\"");
-		URL u=new URL("http://0.0.0.0:4723/wd/hub");
+		Runtime.getRuntime().exec("cmd.exe /c start cmd.exe /k \"appium -a 0.0.0.0 -p 4724\"");
+		URL u=new URL("http://0.0.0.0:4724/wd/hub");
 		Thread.sleep(20000);
 		AndroidDriver driver;
 		while(2>1)

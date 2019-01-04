@@ -4,7 +4,7 @@
   <artifactId>projectsname</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <dependencies>
-  <dependency>
+    <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
     <version>3.13.0</version>
@@ -45,11 +45,7 @@
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-server</artifactId>
         <version>3.13.0</version>
-    </dependency>  
-
-
-
-
-  
+    </dependency> 
+      
   </dependencies>
 </project>

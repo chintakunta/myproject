@@ -2,7 +2,7 @@ Feature:Login
 @someketest
 Scenario: validate site launching
 Given launch site using"chrome"
-Then title contains"Free sms"
+Then title contains"gmail"
 And close site
 Scenario Outline: validate login operation
 Given launch site using"chrome"

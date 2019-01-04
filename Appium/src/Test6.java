@@ -21,7 +21,7 @@ public class Test6 {
 		dc.setCapability(CapabilityType.BROWSER_NAME,""); 
 		dc.setCapability("deviceName", "ZY2244H2P7");
 		dc.setCapability("platformName", "android");
-		dc.setCapability("platformVersion", "7.0");
+		dc.setCapability("platformVersion", "8.1.0");
 		dc.setCapability("appPackage", "com.android.dialer");
 		dc.setCapability("appActivity", "com.android.dialer.DialtactsActivity");
 		//start appium server

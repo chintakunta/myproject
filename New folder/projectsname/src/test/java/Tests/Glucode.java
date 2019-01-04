@@ -29,8 +29,8 @@ public class Glucode
 	public WebDriverWait wait;
 	public Homepage hp;
 	public Sendsmspage sp;
-	public Scenario s;
-	public Properties pro;
+	public Scenario s; //class in cucumber.api.Scenario
+	public Properties pro; //class in java.util.Properties    
 	
 	@Before
 	public void method1(Scenario s) throws Exception
@@ -39,7 +39,7 @@ public class Glucode
 		this.s=s;
 		//Load properties file for current scenario
 		pro=new Properties();
-		FileInputStream fip=new FileInputStream("E:\\testing tools\\mindq\\projectsname\\src\\test\\resources\\kiran\\propertie1.properties");
+		FileInputStream fip=new FileInputStream("E:\\kiranjava\\testing\\New folder\\projectsname\\src\\test\\resources\\kiran\\propertie1.properties");
 		pro.load(fip);
     }
 	@Given("^launch site using\"(.*)\"$")
