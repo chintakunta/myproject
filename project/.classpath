@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/ant-1.7.0.jar"/>
 	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/ant-launcher-1.7.0.jar"/>
@@ -9,11 +9,6 @@
 	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/byte-buddy-1.7.9.jar"/>
 	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/client-combined-3.11.0.jar"/>
 	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/client-combined-3.11.0-sources.jar"/>
-	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/cmu_time_awb.jar"/>
-	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/cmu_us_kal.jar"/>
-	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/cmudict04.jar"/>
-	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/cmulex.jar"/>
-	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/cmutimelex.jar"/>
 	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/commons-beanutils-1.9.2.jar"/>
 	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/commons-codec-1.10.jar"/>
 	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/commons-collections-3.2.1.jar"/>
@@ -21,12 +16,9 @@
 	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/commons-io-2.4.jar"/>
 	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/commons-io-2.6.jar"/>
 	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/en_us.jar"/>
 	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/extentreports-2.41.2.jar"/>
 	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/fontbox-2.0.9.jar"/>
 	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/freemarker-2.3.23.jar"/>
-	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/freetts.jar"/>
-	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/freetts-jsapi10.jar"/>
 	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/ghost4j-1.0.1.jar"/>
 	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/gson-2.8.2.jar"/>
 	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/guava-23.6-jre.jar"/>
@@ -42,7 +34,6 @@
 	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/jcl-over-slf4j-1.7.25.jar"/>
 	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/jcommander-1.48.jar"/>
 	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/jna-4.1.0.jar"/>
-	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/jsapi.jar"/>
 	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/jsoup-1.8.3.jar"/>
 	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/jul-to-slf4j-1.7.25.jar"/>
 	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/junit-4.10.jar"/>
@@ -52,7 +43,6 @@
 	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/log4j-over-slf4j-1.7.25.jar"/>
 	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/logback-classic-1.2.3.jar"/>
 	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/logback-core-1.2.3.jar"/>
-	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/mbrola.jar"/>
 	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/mongodb-driver-3.0.4.jar"/>
 	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/mongodb-driver-core-3.0.4.jar"/>
 	<classpathentry kind="lib" path="E:/testingtools/mindq/jarfiles/okhttp-3.9.1.jar"/>
